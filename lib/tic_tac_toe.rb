@@ -32,6 +32,10 @@ end
   @board[index] = current_player
   end
   
+  def position_taken?(index)
+  !(@board[index].nil? || @board[index] == " ")
+  end
+  
   
   
   
